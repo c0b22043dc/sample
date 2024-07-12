@@ -1,0 +1,32 @@
+# Site settings
+title: homepage
+description: homepage
+# baseurl: "" # プロジェクトのベースURL。リポジトリ名の前にスラッシュをつける例: /repo-name
+url: "https://c0b22043dc.github.io" # あなたのGitHub Pages URL
+
+# Build settings
+theme: jekyll-theme-cayman
+
+# Other optional settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Plugins (e.g., Jekyll Feed for RSS feeds)
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - README.md
+
+# Include in processing
+include:
+  - _pages
+
+# Social media settings (optional)
+# twitter_username: あなたのTwitterユーザー名
+# github_username: あなたのGitHubユーザー名
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
